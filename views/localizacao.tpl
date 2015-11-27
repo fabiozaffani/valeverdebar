@@ -19,7 +19,7 @@
         function initialize() {
             geocoder = new google.maps.Geocoder();
             geocoder.geocode({
-                'address': "<?php echo $endereco; ?>",
+                'address': "{$endereco}",
                 'partialmatch': true}, geocodeResult);
         }
 

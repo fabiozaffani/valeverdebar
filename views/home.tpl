@@ -32,7 +32,7 @@
                      data-start="500"
                      data-easing="easeOutExpo">
                     <h2>Harmonia entre Elegância e Natureza</h2>
-                    <p>Faça seu evento conosco e conte com um lindo e elegante salão localizado em um espaço cercado por uma exuberante natuerza.</p><a class="button orange" href="<?php echo $siteName; ?>sobre">Saiba Mais</a>
+                    <p>Faça seu evento conosco e conte com um lindo e elegante salão localizado em um espaço cercado por uma exuberante natuerza.</p><a class="button orange" href="{$siteName}sobre">Saiba Mais</a>
                 </div>
             </li>
 
@@ -48,7 +48,7 @@
                      data-easing="easeOutExpo">
                     <h2>Estrutura, Comodidade e Segurança</h2>
                     <p>Um salão completamente equipado e pronto para você organizar facilmente seu evento com estacionamento privativo com tranquilidade e segurança.</p>
-                    <a class="button orange" href="<?php echo $siteName; ?>contato">Fale Conosco</a>
+                    <a class="button orange" href="{$siteName}contato">Fale Conosco</a>
                 </div>
             </li>
 
@@ -63,7 +63,7 @@
 <div class="centered-wrapper">
     <section class="intro">
         <h2>EVENTOS VALE VERDE</h2>
-        <h5>Um local elegante com uma natureza exuberante. Faça seu evento conosco. Ligue <?php echo $telefone; ?>.</h5>
+        <h5>Um local elegante com uma natureza exuberante. Faça seu evento conosco. Ligue {$telefone}.</h5>
     </section>
 
     <section class="homepage-grid">

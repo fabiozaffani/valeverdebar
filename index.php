@@ -1,10 +1,11 @@
 <?php
 
+// Set environment variable
 $isDevelopment = in_array( $_SERVER['HTTP_HOST'], array( 'localhost', '127.0.0.1' ));
 
 $envVariables = array(
     'folder' => $isDevelopment ? '/valeverdebar/' : '/valeverdebar.com.br/',
-    'subfolder' => $isDevelopment ? '/valeverdebar' : '/'
+    'subfolder' => $isDevelopment ? '/valeverdebar/' : '/'
 );
 
 
@@ -20,7 +21,7 @@ require_once(__INCLUDES__ . 'contact.php');
 $page = Tools::getCurrentPageUrl();
 
 /**
- *  Initialize Services
+ *  Initialize Vendors (services)
  */
 
 $mandrill = new Mandrill('K6zCpkX3tF5Kd8q3DpDmaQ');
@@ -29,10 +30,10 @@ $smarty->setCacheDir('vendor/smarty/cache');
 $smarty->setConfigDir('vendor/smarty/configs');
 $smarty->setCompileDir('vendor/smarty/templates_c');
 $smarty->setTemplateDir('views');
+// $smarty->testInstall(); exit;
+//
 
 $contact = new Contact($mandrill, $smarty);
-
-// $smarty->testInstall(); exit;
 
 $smarty->assign('siteName', $envVariables['subfolder']);
 $smarty->assign('endereco', 'Estrada da Servidao, 30 - Varzea Paulista, SP');

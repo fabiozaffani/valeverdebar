@@ -7,7 +7,7 @@
                 <h3>Eventos Vale Verde</h3>
                 <p>
                     O espaço para eventos Vale Verde oferece toda a comodidade e conforto em total harmonia com a natureza.
-                    Você terá um salão de alto padrão, qualidade e segurança. Contamos ainda com estacionamento privativo em um espaço cercado por uma exuberante natureza onde você poderá realizar seu evento. Para mais informações ligue agora mesmo para <?php echo $telefone; ?>
+                    Você terá um salão de alto padrão, qualidade e segurança. Contamos ainda com estacionamento privativo em um espaço cercado por uma exuberante natureza onde você poderá realizar seu evento. Para mais informações ligue agora mesmo para {$telefone}
                 </p>
             </div><!--end percent-one-half-->
 
