@@ -84,7 +84,7 @@
                             <a href="{$siteName}" {if $current eq 'home'} "class='current'" {else} "" {/if}><span>INÍCIO</span></a>
                         </li>
                         <li>
-                            <a href="{$siteName}album" {if $current eq 'album'} "class='current'" {else} "" {/if}><span>QUEM SOMOS</span></a>
+                            <a href="{$siteName}album" {if $current eq 'album'} "class='current'" {else} "" {/if}><span>SOBRE NÓS</span></a>
                         </li>
                         <li>
                             <a href="{$siteName}localizacao" {if $current eq 'localizacao'} "class='current'" {else} "" {/if}><span>LOCALIZAÇÃO</span></a>

@@ -1,4 +1,4 @@
-{include file='shared/header.tpl' title='O Local :: Eventos Vale Verde' current='album'}
+{include file='shared/header.tpl' title='Serviços :: Eventos Vale Verde' current='album'}
 
 <section class="page-title">
     <div class="page-background">

@@ -1,6 +1,5 @@
 {include file='shared/header.tpl' title='Inicio :: Eventos Vale Verde' current='home'}
 
-<div class="top-shadow"></div>
 <div class="fullwidthbanner-container">
     <div class="fullwidthbanner">
         <ul>
@@ -15,7 +14,7 @@
                      data-start="1000"
                      data-easing="easeOutExpo">
                     <h2>Eventos Vale Verde</h2>
-                    <p>Um novo jeito de realizar o seu evento. Festas Infantis, Casamentos, Workshops e Confraternizações.</p>
+                    <p>Um novo jeito de realizar o seu evento. Casamentos, Festas e Confraternizações.</p>
                 </div>
             </li>
 
@@ -32,12 +31,13 @@
                      data-start="500"
                      data-easing="easeOutExpo">
                     <h2>Harmonia entre Elegância e Natureza</h2>
-                    <p>Faça seu evento conosco e conte com um lindo e elegante salão localizado em um espaço cercado por uma exuberante natuerza.</p><a class="button orange" href="{$siteName}sobre">Saiba Mais</a>
+                    <p>Faça seu evento conosco e conte com um lindo e elegante salão localizado em um espaço cercado por uma exuberante natureza.</p>
+                    <a class="button orange" href="{$siteName}sobre">Saiba Mais</a>
                 </div>
             </li>
 
             <!-- THE THIRD SLIDE -->
-            <li data-transition="papercut" data-slotamount="15" data-masterspeed="300" data-link="/contato">
+            <li data-transition="papercut" data-slotamount="15" data-masterspeed="300">
                 <img src="assets/images/slides/slide3.jpg" alt="" />
 
                 <div class="caption box-slide2 lft ltt"
@@ -47,7 +47,7 @@
                      data-start="500"
                      data-easing="easeOutExpo">
                     <h2>Estrutura, Comodidade e Segurança</h2>
-                    <p>Um salão completamente equipado e pronto para você organizar facilmente seu evento com estacionamento privativo com tranquilidade e segurança.</p>
+                    <p>Um salão completamente equipado e pronto para você organizar seu evento, disponibilizamos estacionamento privativo com tranquilidade e segurança.</p>
                     <a class="button orange" href="{$siteName}contato">Fale Conosco</a>
                 </div>
             </li>

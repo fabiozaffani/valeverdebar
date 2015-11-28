@@ -1,7 +1,5 @@
 {include file='shared/header.tpl' title='Contato :: Eventos Vale Verde' current='contato'}
 
-<div class="top-shadow"></div>
-
 <section class="page-title">
     <div class="page-background">
         <div class="pattern9"></div>

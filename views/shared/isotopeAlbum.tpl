@@ -44,8 +44,8 @@
             <img src="assets/images/portfolio/img4_big.jpg" alt=" " />
         </a>
     </li>
-    <li data-category="marketing" class="marketing print item-small">
-        <a href="assets/images/portfolio/img5_big.jpg">
+    <li data-category="marketing" class="marketing item-small">
+        <a href="assets/images/portfolio/img5_big.jpg" rel="prettyPhoto">
             <div class="grid-item-on-hover">
                 <div class="grid-text">
                     <h1>Recepção</h1>

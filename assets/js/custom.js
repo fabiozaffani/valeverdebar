@@ -173,7 +173,7 @@ jQuery(document).ready(function() {
 
 	//TRANSFORM MENU INTO SELECT FOR RESPONSIVE LAYOUT //
 	$('#mainnav').mobileMenu({
-		defaultText: 'Navigate to...',
+		defaultText: 'Navegar para...',
 		className: 'select-menu',
 		subMenuDash: '&ndash;'
 	});
