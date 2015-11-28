@@ -6,6 +6,10 @@
             <label>Nome <span>*</span></label>
             <input id="name" type="text" name="name"/>
         </fieldset>
+        <fieldset class="percent-one-third winnie">
+            <label>Sobrenome <span>*</span></label>
+            <input id="lastname" type="text" name="lastname" />
+        </fieldset>
         <fieldset class="percent-one-third">
             <label>E-mail <span>*</span></label>
             <input type="text" name="email" id="email"/>

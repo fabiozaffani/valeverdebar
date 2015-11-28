@@ -198,6 +198,10 @@ strong {
 	clear:both;
 }
 
+.winnie {
+	display: none;
+}
+
 label {
     color:#7F7F7F;
     display:block;

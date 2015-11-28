@@ -15,6 +15,7 @@ jQuery(document).ready(function(){
 
 				$.post(action, {
 					name: $('#name').val(),
+					lastname: $('#lastname').val(),
 					email: $('#email').val(),
 					subject: $('#subject').val(),
 					comments: $('#comments').val()
