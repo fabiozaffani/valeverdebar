@@ -19,6 +19,7 @@ require_once(__INCLUDES__ . 'tools.php');
 require_once(__INCLUDES__ . 'contact.php');
 
 $page = Tools::getCurrentPageUrl();
+$home = 'http://' . $_SERVER['HTTP_HOST'] . $envVariables['subfolder'];
 
 /**
  *  Initialize Vendors (services)
@@ -45,6 +46,8 @@ $smarty->assign('celular', '(11) 9 4749-0551');
 $smarty->assign('siteBasic', 'www.valeverdebar.com.br');
 $smarty->assign('siteFull', 'http://www.valeverdebar.com.br');
 
+var_dump($page);
+var_dump($home);
 switch($page){
 
     case 'contact':
@@ -52,8 +55,7 @@ switch($page){
         echo $contact->sendMail();
         break;
 
-    case 'index' :
-    case 'home' :
+    case $home:
 
         $smarty->display('home.tpl');
         break;
@@ -96,6 +98,6 @@ switch($page){
 
     default :
 
-        $smarty->display('home.tpl');
+        $smarty->display('404.tpl');
         break;
 }

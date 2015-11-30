@@ -199,9 +199,7 @@ if (!class_exists('Tools'))
         {
             $url = Tools::getFullCurrentPageUrl();
 
-            $page = Tools::CutStringUsintLast('/', $url, 'right', false);
-
-            return Tools::CutStringUsintLast('.', $page, 'left', false);
+            return Tools::CutStringUsintLast('/', $url, 'right', false);
         }
     }
 }
