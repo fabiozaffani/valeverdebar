@@ -22,15 +22,19 @@ jQuery(document).ready(function(){
 				},
 					function completedRequest(data){
 
-						var responseMsg = '';
+						var responseMsg = '',
+							responseMsgClass = '';
+
 						if (data === 'ok') {
 							responseMsg = 'Mensagem enviada com sucesso!';
+							responseMsgClass = 'box-success';
 						} else {
 							responseMsg = data;
+							responseMsgClass = 'box-error';
 						}
 
 						document.getElementById('message').innerHTML = responseMsg;
-						$('#message').slideDown('slow');
+						$('#message').removeClass('box-error box-success').addClass(responseMsgClass).slideDown('slow');
 						$('#cform img.contact-loader').fadeOut('slow',function(){$(this).remove()});
 						$('#submit').removeAttr('disabled');
 

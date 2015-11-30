@@ -29,17 +29,17 @@ class Contact {
 
 		// honeypot bitches!
 		if ($this->mailData['lastname']) {
-			$result = '<div class="error_message">Erro indescritível...</div>';
+			$result = 'Erro indescritível...';
 		} else if(trim($this->mailData['name']) == '') {
-			$result = '<div class="error_message">Digite seu nome.</div>';
+			$result = 'Digite seu nome';
 		} else if(trim($this->mailData['email']) == '') {
-			$result = '<div class="error_message">Digite seu e-mail.</div>';
+			$result = 'Digite seu e-mail';
 		} else if(!isEmail($this->mailData['email'])) {
-			$result = '<div class="error_message">Digite um e-mail válido.</div>';
+			$result = 'Digite um e-mail válido';
 		} else if(trim($this->mailData['phone']) == '') {
-			$result = '<div class="error_message">Digite o seu telefone.</div>';
+			$result = 'Digite o seu telefone';
 		} else if(trim($this->mailData['comments']) == '') {
-			$result = '<div class="error_message">Digite uma mensagem.</div>';
+			$result = 'Digite uma mensagem';
 		}
 
 		return $result;

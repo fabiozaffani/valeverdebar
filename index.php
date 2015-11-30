@@ -36,6 +36,7 @@ $smarty->setTemplateDir('views');
 $contact = new Contact($mandrill, $smarty);
 
 $smarty->assign('siteName', $envVariables['subfolder']);
+$smarty->assign('assets', $envVariables['subfolder'].'assets/');
 $smarty->assign('endereco', 'Estrada da Servidao, 30 - Varzea Paulista, SP');
 $smarty->assign('cep', '13225-298');
 $smarty->assign('email', 'fabiozaffani@gmail.com');
@@ -55,6 +56,26 @@ switch($page){
     case 'home' :
 
         $smarty->display('home.tpl');
+        break;
+
+    case 'servicos':
+
+        $smarty->display('services.tpl');
+        break;
+
+    case 'buffet':
+
+        $smarty->display('services/buffet.tpl');
+        break;
+
+    case 'locacao-casamento':
+
+        $smarty->display('services/locacao-casamento.tpl');
+        break;
+
+    case 'locacao-festa':
+
+        $smarty->display('services/locacao-festa.tpl');
         break;
 
     case 'localizacao' :

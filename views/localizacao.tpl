@@ -74,6 +74,12 @@
 <div class="space"></div>
 
 <div class="centered-wrapper">
+    <div>
+        <p>
+            A Chácara Vale Verde está em uma localização excelente e de fácil acesso pela <span class="highlight bluish"> Rodovia Presidente Tancredo Neves - SP 332 </span>
+            (conhecida como estrada velha para São Paulo) e fica na divisa entre Jundiaí e Várzea Paulista no estado de SP.
+        </p>
+    </div>
     <div class="one-fourth">
         <aside>
             {include file='shared/contactWidget.tpl'}

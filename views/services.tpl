@@ -1,4 +1,4 @@
-{include file='shared/header.tpl' title='Serviços :: Eventos Vale Verde' current='album'}
+{include file='shared/header.tpl' title='Serviços :: Eventos Vale Verde' current='servicos'}
 
 <section class="page-title">
     <div class="page-background">
@@ -9,36 +9,35 @@
         <div class="title-bg">
             <div class="title-content">
                 <div class="two-third">
-                    <h2>O LOCAL</h2>
-                    <p>
-                        O espaço para eventos Vale Verde oferece toda a comodidade e conforto em total harmonia com a natureza. Você terá um salão totalmente montado e equipado pronto para receber seus convidados em um estacionamento privativo, com total segurança e conforto.
-                        Para mais informações ligue para (11) 4595-8886 e fale com nosso atendimento.
-                    </p>
+                    <h1> Serviços </h1>
                 </div>
-                <div class="one-third column-last">
-                    <section id="options">
-                        <ul id="filters" class="option-set clearfix" data-option-key="filter">
-                            <li><a href="#filter" data-option-value="*" class="selected active">Todos</a></li>
-                            <li><a href="#filter" data-option-value=".marketing">Exterior</a></li>
-                            <li><a href="#filter" data-option-value=".photography">Interior</a></li>
-                        </ul>
-                    </section>
-                </div>
+                <div class="one-third column-last"></div>
                 <div class="clear"></div>
             </div><!--end title-content-->
         </div>
     </div><!--end title-wrapper-->
 </section>
-
-
 <div class="centered-wrapper">
-    <section id="portfolio-wrapper">
-        {include file='shared/isotopeAlbum.tpl'}
-    </section>
+    <h2>Locação para Casamentos</h2>
+    <p>
+        Foo
+    </p>
+    <p>
+        <a href="{$siteName}servicos/locacao-casamento" class="button orange">Mais informações</a>
+    </p>
+    <div class="separator"></div>
 
+    <h2>Locação para Festas</h2>
+    <p>
+        Foo
+    </p>
+    <p>
+        <a href="{$siteName}servicos/locacao-festa" class="button orange">Mais informações</a>
+    </p>
+
+    <div class="separator"></div>
     <div class="clear"></div>
-</div><!--end centered-wrapper-->
 
-<div class="space"></div>
+</div>
 
 {include file='shared/footer.tpl'}

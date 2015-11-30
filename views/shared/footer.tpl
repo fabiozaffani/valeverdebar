@@ -14,11 +14,11 @@
             <div class="one-half column-last">
                 <h3>Fale conosco</h3>
                 <ul>
-                    <li>Endereço: {$endereco}</li>
+                    <li>Endereço {$endereco}</li>
                     <li>
-                        <span>Telefone:</span> {$telefone}<br/>
-                        <span>E-mail:</span> <a href="mailto:{$email}">{$email}</a><br/>
-                        <span>Site:</span> <a href="{$siteFull}" target=" blank">{$siteBasic}</a>
+                        <span>Telefone</span> {$telefone}<br/>
+                        <span>Celular</span> {$celular}<br/>
+                        <span>E-mail</span> <a href="mailto:{$email}">{$email}</a><br/>
                     </li>
                 </ul>
             </div><!--end one-half-->

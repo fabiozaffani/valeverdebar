@@ -59,26 +59,19 @@
     </div>
 </div><!--end slider-->
 
-
 <div class="centered-wrapper">
+
     <section class="intro">
         <h2>EVENTOS VALE VERDE</h2>
         <h5>Um local elegante com uma natureza exuberante. Faça seu evento conosco. Ligue {$telefone}.</h5>
     </section>
 
     <section class="homepage-grid">
-        <div class="bgtitle"><h2>O HOTEL</h2></div>
-        <section id="options">
-            <ul id="filters" class="option-set clearfix" data-option-key="filter">
-                <li><a href="#filter" data-option-value="*" class="selected active">Todos</a></li>
-                <li><a href="#filter" data-option-value=".marketing">Exterior</a></li>
-                <li><a href="#filter" data-option-value=".photography">Interior</a></li>
-            </ul>
-        </section>
 
-        <section id="portfolio-wrapper">
-            {include file='shared/isotopeAlbum.tpl'}
-        </section>
+        <div class="bgtitle"><h2>O Local</h2></div>
+
+        {include file='shared/isotopeAlbum.tpl'}
+
     </section><!--end home-grid-->
     <div class="space"></div>
 

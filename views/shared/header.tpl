@@ -9,21 +9,21 @@
     <title>{$title}</title>
 
     <!-- main style -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{$assets}css/style.css" media="screen" />
 
     <!-- color scheme -->
-    <link rel="stylesheet" type="text/css" href="assets/css/red.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{$assets}css/red.css" media="screen" />
 
     <!--miscellaneous-->
-    <link rel="stylesheet" type="text/css" href="assets/css/superfish.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="assets/css/prettyPhoto.css" media="screen"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="{$assets}css/superfish.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="{$assets}css/prettyPhoto.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="{$assets}css/font-awesome.css" media="screen"/>
 
     <!-- revolution slider settings -->
-    <link rel="stylesheet" type="text/css" href="assets/js/rs-plugin/css/settings.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{$assets}js/rs-plugin/css/settings.css" media="screen" />
 
     <!-- setting mobile environment -->
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{$assets}css/responsive.css" media="screen" />
 
     <!--[if IE 7]>
     <link rel="stylesheet" type="text/css" href="css/font-awesome-ie7.min.css">
@@ -33,21 +33,21 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <script type="text/javascript" src="assets/js/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="assets/js/hoverIntent.js"></script>
-    <script type="text/javascript" src="assets/js/superfish.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.jcarousel.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.mobilemenu.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.contact.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.preloadify.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="{$assets}js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="{$assets}js/hoverIntent.js"></script>
+    <script type="text/javascript" src="{$assets}js/superfish.js"></script>
+    <script type="text/javascript" src="{$assets}js/jquery.jcarousel.js"></script>
+    <script type="text/javascript" src="{$assets}js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="{$assets}js/jquery.mobilemenu.js"></script>
+    <script type="text/javascript" src="{$assets}js/jquery.contact.js"></script>
+    <script type="text/javascript" src="{$assets}js/jquery.preloadify.min.js"></script>
+    <script type="text/javascript" src="{$assets}js/jquery.isotope.min.js"></script>
 
     <!-- jQuery Revolution Slider -->
-    <script type="text/javascript" src="assets/js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-    <script type="text/javascript" src="assets/js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="{$assets}js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="{$assets}js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
-    <script type="text/javascript" src="assets/js/custom.js"></script>
+    <script type="text/javascript" src="{$assets}js/custom.js"></script>
 
     <!-- Google Web Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
@@ -74,7 +74,7 @@
     <header id="header">
         <div class="centered-wrapper">
             <div class="one-third">
-                <div class="logo"><a href="{$siteName}"><img src="assets/images/logo.png" alt="" /></a></div>
+                <div class="logo"><a href="{$siteName}"><img src="{$assets}images/logo.png" alt="" /></a></div>
             </div><!--end one-third-->
 
             <div class="two-third column-last">
@@ -86,11 +86,9 @@
                         <li>
                             <a href="{$siteName}servicos" {if $current eq 'services'} "class='current'" {else} "" {/if}><span>SERVIÇOS</span></a>
                             <ul>
-								<li><a href="gallery.html">Gallery</a></li>
-								<li><a href="services.html">Services</a></li>
-								<li><a href="about-us.html">About Us</a></li>
-								<li><a href="pricing.html">Pricing Options</a></li>
-								<li><a href="testimonials.html">Testimonials</a></li>
+                                <!-- <li><a href="{$siteName}servicos/buffet">Buffet</a></li> -->
+								<li><a href="{$siteName}servicos/locacao-casamento">Locação Casamento</a></li>
+								<li><a href="{$siteName}servicos/locacao-festa">Locação Festa</a></li>
 							</ul>
 						</li>
                         <li>
