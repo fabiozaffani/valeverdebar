@@ -13,6 +13,8 @@ jQuery(document).ready(function(){
 
 			$('#cform').fadeTo(400, 0.5, function completedFade() {
 
+				ga('send', 'event', 'Formulario', 'Enviar', 'Contato');
+
 				$.post(action, {
 					name: $('#name').val(),
 					lastname: $('#lastname').val(),
@@ -35,10 +37,10 @@ jQuery(document).ready(function(){
 
 						document.getElementById('message').innerHTML = responseMsg;
 						$('#message').removeClass('box-error box-success').addClass(responseMsgClass).slideDown('slow');
-						$('#cform img.contact-loader').fadeOut('slow',function(){$(this).remove()});
+						$('#cform img.contact-loader').fadeOut('slow',function(){$(this).remove();});
 						$('#submit').removeAttr('disabled');
 
-						if(data.match('ok') != null) {
+						if (data.match('ok') !== null) {
 							$('#cform').slideUp('slow');
 						} else {
 							$('#cform').fadeTo(500, 1);
