@@ -22,7 +22,7 @@
 
     <h2>O Local</h2>
     <p>
-        A Chácara Vale Verde Jundiaí é um espaço cercado por uma beleza natural que fará as fotografias de casamento ficarem ainda mais lindas e, também,
+        A Chácara para casamento Vale Verde Jundiaí é um espaço cercado por uma beleza natural que fará as fotografias de casamento ficarem ainda mais lindas e, também,
         oferece uma estrutura de primeira linha que cairá como uma luva para os noivos celebrarem o tão esperado casamento.
     </p>
 
@@ -49,6 +49,9 @@
         Para entrar em contato com os administradores do espaço e obterem mais informações sobre o local, como disponibilidade, tipos de decorações permitidas, entre outros detalhes,
         basta escrever uma simples mensagem de texto. Os responsáveis pela comunicação da Chácara entrarão em contato o mais rápido possível.
     </p>
+
+    <div class="space"></div>
+
     <div class="one-fourth">
         <aside>
             {include file='shared/contactWidget.tpl'}

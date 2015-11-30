@@ -29,15 +29,16 @@
     <h2>Espaço e capacidade</h2>
     <p>
         Nosso espaço combina, como poucos outros lugares, a beleza do entorno particular que rodeia o imóvel com uma estrutura de primeira linha,
-        capaz de suportar qualquer tipo de evento. Atualmente disponibilizamos:
+        capaz de suportar qualquer tipo de evento. Atualmente disponibilizamos para uso do locador:
         <ul class="customlist tick-list">
             <li>Salão coberto com varanda</li>
+            <li>Área externa para montagem de estrutura extra (tenda, etc)</li>
             <li>Sistema de segurança</li>
             <li>Guarita móvel para cobrança de entrada</li>
             <li>Cozinha industrial</li>
             <li>Espaço para camarote privativo</li>
             <li>Sistema de som e iluminação</li>
-            <li>Bar completo apra preparação de Drinks</li>
+            <li>Bar completo para preparação de Drinks</li>
             <li>Geladeiras e chopeira</li>
             <li>Espaço para banquetes</li>
             <li>Dois estacionamentos (com capacidade para 50 carros e 200 carros respectivamente)</li>
@@ -54,6 +55,9 @@
         Para entrar em contato com os administradores do espaço e obterem mais informações sobre o local, como disponibilidade, entre outros detalhes,
         basta escrever uma simples mensagem de texto que entraremos em contato o mais rápido possível.
     </p>
+
+    <div class="space"></div>
+
     <div class="one-fourth">
         <aside>
             {include file='shared/contactWidget.tpl'}
