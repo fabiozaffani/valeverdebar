@@ -49,6 +49,15 @@
         Para entrar em contato com os administradores do espaço e obterem mais informações sobre o local, como disponibilidade, tipos de decorações permitidas, entre outros detalhes,
         basta escrever uma simples mensagem de texto. Os responsáveis pela comunicação da Chácara entrarão em contato o mais rápido possível.
     </p>
+    <div class="one-fourth">
+        <aside>
+            {include file='shared/contactWidget.tpl'}
+        </aside>
+    </div>
+
+    <div class="three-fourth column-last">
+        {include file='shared/contactForm.tpl'}
+    </div>
 
     <div class="separator"></div>
     <div class="clear"></div>

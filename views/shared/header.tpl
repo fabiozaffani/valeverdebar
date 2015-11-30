@@ -92,7 +92,7 @@
 							</ul>
 						</li>
                         <li>
-                            <a href="{$siteName}album" {if $current eq 'album'} "class='current'" {else} "" {/if}><span>SOBRE NÓS</span></a>
+                            <a href="{$siteName}sobre-nos" {if $current eq 'album'} "class='current'" {else} "" {/if}><span>SOBRE NÓS</span></a>
                         </li>
                         <li>
                             <a href="{$siteName}localizacao" {if $current eq 'localizacao'} "class='current'" {else} "" {/if}><span>LOCALIZAÇÃO</span></a>

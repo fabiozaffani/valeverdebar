@@ -1,4 +1,4 @@
-<h6>FALE CONOSCO:</h6>
+<h6>Fale Conosco</h6>
 <div id="contactform">
     <div id="message"></div>
     <form method="post" action="{$siteName}contact" name="cform" id="cform">

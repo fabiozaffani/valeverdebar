@@ -89,9 +89,9 @@ switch($page){
         $smarty->display('contato.tpl');
         break;
 
-    case 'album' :
+    case 'sobre-nos' :
 
-        $smarty->display('album.tpl');
+        $smarty->display('sobre-nos.tpl');
         break;
 
     default :
