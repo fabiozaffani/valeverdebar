@@ -17,7 +17,9 @@
         </div>
     </div><!--end title-wrapper-->
 </section>
+
 <div class="centered-wrapper">
+
     <h2>O Local</h2>
     <p>
         A Chácara Vale Verde Jundiaí é um espaço cercado por uma beleza natural que fará as fotografias de casamento ficarem ainda mais lindas e, também,
@@ -31,7 +33,8 @@
         <ul class="customlist tick-list">
             <li>Salão coberto com varanda</li>
             <li>Cozinha industrial para uso de buffet</li>
-            <li>Bar completo apra preparação de Drinks</li>
+            <li>Bar completo para preparação de Drinks</li>
+            <li>Sistema de segurança</li>
             <li>Espaço para banquetes</li>
             <li>Dois estacionamentos (com capacidade para 50 carros e 200 carros respectivamente)</li>
         </ul>
