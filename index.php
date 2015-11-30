@@ -46,8 +46,6 @@ $smarty->assign('celular', '(11) 9 4749-0551');
 $smarty->assign('siteBasic', 'www.valeverdebar.com.br');
 $smarty->assign('siteFull', 'http://www.valeverdebar.com.br');
 
-var_dump($page);
-var_dump($home);
 switch($page){
 
     case 'contact':
