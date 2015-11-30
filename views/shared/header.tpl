@@ -84,6 +84,16 @@
                             <a href="{$siteName}" {if $current eq 'home'} "class='current'" {else} "" {/if}><span>INÍCIO</span></a>
                         </li>
                         <li>
+                            <a href="{$siteName}servicos" {if $current eq 'services'} "class='current'" {else} "" {/if}><span>SERVIÇOS</span></a>
+                            <ul>
+								<li><a href="gallery.html">Gallery</a></li>
+								<li><a href="services.html">Services</a></li>
+								<li><a href="about-us.html">About Us</a></li>
+								<li><a href="pricing.html">Pricing Options</a></li>
+								<li><a href="testimonials.html">Testimonials</a></li>
+							</ul>
+						</li>
+                        <li>
                             <a href="{$siteName}album" {if $current eq 'album'} "class='current'" {else} "" {/if}><span>SOBRE NÓS</span></a>
                         </li>
                         <li>
