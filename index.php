@@ -68,9 +68,9 @@ switch($page){
         $smarty->display('services/buffet.tpl');
         break;
 
-    case 'locacao-casamento':
+    case 'locacao-chacara-casamento':
 
-        $smarty->display('services/locacao-casamento.tpl');
+        $smarty->display('services/locacao-chacara-casamento.tpl');
         break;
 
     case 'locacao-festa':

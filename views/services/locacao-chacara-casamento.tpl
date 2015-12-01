@@ -1,4 +1,4 @@
-{include file='shared/header.tpl' title='Locação Casamento :: Serviços :: Eventos Vale Verde' current='locacao-casamento'}
+{include file='shared/header.tpl' title='Locação Chácara Casamento :: Serviços :: Eventos Vale Verde' current='locacao-chacara-casamento'}
 
 <section class="page-title">
     <div class="page-background">
@@ -9,7 +9,7 @@
         <div class="title-bg">
             <div class="title-content">
                 <div class="two-third">
-                    <h1> Locação Casamento </h1>
+                    <h1> Locação Chácara Casamento </h1>
                 </div>
                 <div class="one-third column-last"></div>
                 <div class="clear"></div>
@@ -21,10 +21,32 @@
 <div class="centered-wrapper">
 
     <h2>O Local</h2>
-    <p>
-        A Chácara para casamento Vale Verde Jundiaí é um espaço cercado por uma beleza natural que fará as fotografias de casamento ficarem ainda mais lindas e, também,
-        oferece uma estrutura de primeira linha que cairá como uma luva para os noivos celebrarem o tão esperado casamento.
-    </p>
+    <div>
+        <p>
+            A Chácara para casamento Vale Verde Jundiaí é um espaço cercado por uma beleza natural que fará as fotografias de casamento ficarem ainda mais lindas e, também,
+            oferece uma estrutura de primeira linha que cairá como uma luva para os noivos celebrarem o tão esperado casamento.
+        </p>
+        <ul class="gallery-page">
+            <li>
+                <a href="{$assets}images/servicos/servico-casamento-4-large.jpg" rel="prettyPhoto[pp_gal]" title="Gallery 1">
+                    <span class="item-on-hover"><span class="hover-image"></span></span>
+                    <img src="{$assets}images/servicos/servico-casamento-4.jpg" alt="mesa de casamento" />
+                </a>
+            </li>
+            <li>
+                <a href="{$assets}images/servicos/servico-casamento-2-large.jpg" rel="prettyPhoto[pp_gal]" title="Gallery 1">
+                    <span class="item-on-hover"><span class="hover-image"></span></span>
+                    <img src="{$assets}images/servicos/servico-casamento-2.jpg" alt="salão de casamento" />
+                </a>
+            </li>
+            <li>
+                <a href="{$assets}images/servicos/servico-casamento-3-large.jpg" rel="prettyPhoto[pp_gal]" title="Gallery 1">
+                    <span class="item-on-hover"><span class="hover-image"></span></span>
+                    <img src="{$assets}images/servicos/servico-casamento-3.jpg" alt="bolo de casamento" />
+                </a>
+            </li>
+        </ul>
+    </div>
 
     <h2>Espaço e capacidade</h2>
     <p>

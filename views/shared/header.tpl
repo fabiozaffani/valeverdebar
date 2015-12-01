@@ -86,7 +86,7 @@
                             <a href="{$siteName}servicos" {if $current eq 'services'} "class='current'" {else} "" {/if}><span>SERVIÇOS</span></a>
                             <ul>
                                 <!-- <li><a href="{$siteName}servicos/buffet">Buffet</a></li> -->
-								<li><a href="{$siteName}servicos/locacao-casamento">Locação Casamento</a></li>
+								<li><a href="{$siteName}servicos/locacao-chacara-casamento">Locação Casamento</a></li>
 								<li><a href="{$siteName}servicos/locacao-festa">Locação Festa</a></li>
 							</ul>
 						</li>

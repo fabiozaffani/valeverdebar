@@ -31,8 +31,8 @@ ul#mainnav li a:hover, ul#mainnav li a:active, ul#mainnav li a.current {
 }
 
 .one-page ul#mainnav li.active a {
-	background:#e1472f;	
-}	
+	background:#e1472f;
+}
 
 .jcarousel-item a:hover {
 	color:#e1472f;
@@ -47,9 +47,9 @@ ul#mainnav li a:hover, ul#mainnav li a:active, ul#mainnav li a.current {
 	background-color:#e1472f;
 }
 
-.jcarousel-prev-horizontal:hover, 
+.jcarousel-prev-horizontal:hover,
 .jcarousel-prev-horizontal:focus {
-	background-color:#e1472f;	
+	background-color:#e1472f;
 }
 
 .grid-item-on-hover {
@@ -57,15 +57,15 @@ ul#mainnav li a:hover, ul#mainnav li a:active, ul#mainnav li a.current {
 }
 
 span.hover-link {
-	background:#e1472f url(../../images/link.png) no-repeat scroll center center;	
+	background:#e1472f url(../images/link.png) no-repeat scroll center center;
 }
 
 span.hover-image {
-	background: #e1472f url(../../images/lightbox.png) no-repeat scroll center center;
+	background: #e1472f url(../images/lightbox.png) no-repeat scroll center center;
 }
 
 span.hover-video {
-	background:#e1472f url(../../images/video.png) no-repeat scroll center center;
+	background:#e1472f url(../images/video.png) no-repeat scroll center center;
 }
 
 .tags ul li a:hover {
@@ -93,27 +93,27 @@ ul#home-filters li a.selected, ul#home-filters li a:hover {
 }
 
 .portfolio-nav a.prev-project {
-	background:#efefef url(../../images/portfolio-arrows.png) scroll 0 0;
+	background:#efefef url(../images/portfolio-arrows.png) scroll 0 0;
 }
 
 .portfolio-nav a.prev-project:hover {
-	background:#e1472f url(../../images/portfolio-arrows.png) scroll 0 -25px;
+	background:#e1472f url(../images/portfolio-arrows.png) scroll 0 -25px;
 }
 
 .portfolio-nav a.close-project {
-	background:#efefef url(../../images/portfolio-arrows.png) scroll -23px 0;
+	background:#efefef url(../images/portfolio-arrows.png) scroll -23px 0;
 }
 
 .portfolio-nav a.close-project:hover {
-	background:#e1472f url(../../images/portfolio-arrows.png) scroll -23px -25px;
+	background:#e1472f url(../images/portfolio-arrows.png) scroll -23px -25px;
 }
 
 .portfolio-nav a.next-project {
-	background:#efefef url(../../images/portfolio-arrows.png) scroll -46px 0;
+	background:#efefef url(../images/portfolio-arrows.png) scroll -46px 0;
 }
 
 .portfolio-nav a.next-project:hover {
-	background:#e1472f url(../../images/portfolio-arrows.png) scroll -46px -25px;
+	background:#e1472f url(../images/portfolio-arrows.png) scroll -46px -25px;
 }
 
 
@@ -161,12 +161,12 @@ ul.customlist li i {
 .tp-bullets.simplebullets.round .bullet:hover,
 .tp-bullets.simplebullets.round .bullet.selected,
 .tp-bullets.simplebullets.navbar .bullet:hover,
-.tp-bullets.simplebullets.navbar .bullet.selected {	
-	background:#e1472f !important; 
+.tp-bullets.simplebullets.navbar .bullet.selected {
+	background:#e1472f !important;
 }
 
 .tp-leftarrow:hover,
-.tp-rightarrow:hover {	
+.tp-rightarrow:hover {
 	background-color:#e1472f !important;
  }
 
@@ -198,7 +198,7 @@ ul#filters li a:hover {
 
 ul#filters li.selected a {
 	color:#fff;
-	background:#e1472f;	
+	background:#e1472f;
 }
 
 .portfolio h3 a:hover {
@@ -215,7 +215,7 @@ h2.post-title a:hover, .meta a:hover {
 }
 
 span.current {
-    background:#e1472f; 
+    background:#e1472f;
 }
 
 #footer a:hover {
@@ -224,7 +224,7 @@ span.current {
 
 .featured-column .package-title {
 	border-bottom: 3px solid #C2240B;
-	background: #E1472F;	
+	background: #E1472F;
 }
 
 .nav-first-item {
@@ -232,13 +232,13 @@ span.current {
 }
 
 .toggle-plus {
-	background:#7b7b7b url(../../images/plus.png) no-repeat scroll 0 0;
+	background:#7b7b7b url(../images/plus.png) no-repeat scroll 0 0;
 	width:21px;
 	height:21px;
 }
 
 .toggle-minus {
-	background:#e1472f url(../../images/minus.png) no-repeat scroll 0 0;
+	background:#e1472f url(../images/minus.png) no-repeat scroll 0 0;
 	width:21px;
 	height:21px;
 }
@@ -246,7 +246,7 @@ span.current {
 h6.check i {
 	color:#e1472f;
 	font-size: 14px;
-	margin-right: 8px;	
+	margin-right: 8px;
 }
 div.jp-play-bar {
 	background: #e1472f;
