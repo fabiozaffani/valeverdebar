@@ -53,6 +53,7 @@
         Nosso espaço combina, como poucos outros lugares, a beleza do entorno particular que rodeia o imóvel com uma estrutura de primeira linha,
         capaz de suportar qualquer tipo de evento. A Chácara dispõe de:
         <ul class="customlist tick-list">
+            <li>Mesas e Cadeiras para os convidados</li>
             <li>Salão coberto com varanda</li>
             <li>Cozinha industrial para uso de buffet</li>
             <li>Bar completo para preparação de Drinks</li>
@@ -71,6 +72,12 @@
         Para entrar em contato com os administradores do espaço e obterem mais informações sobre o local, como disponibilidade, tipos de decorações permitidas, entre outros detalhes,
         basta escrever uma simples mensagem de texto. Os responsáveis pela comunicação da Chácara entrarão em contato o mais rápido possível.
     </p>
+
+    <div class="space"></div>
+
+    <div>
+        {include file='shared/calculatorForm.tpl'}
+    </div>
 
     <div class="space"></div>
 

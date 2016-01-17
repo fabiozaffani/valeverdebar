@@ -17,6 +17,7 @@ define('__INCLUDES__', __ROOT__ . 'includes/');
 require_once(__VENDOR__ . 'autoload.php');
 require_once(__INCLUDES__ . 'tools.php');
 require_once(__INCLUDES__ . 'contact.php');
+require_once(__INCLUDES__ . 'calculator.php');
 
 $page = Tools::getCurrentPageUrl();
 $home = 'http://' . $_SERVER['HTTP_HOST'] . $envVariables['subfolder'];
@@ -27,6 +28,7 @@ $home = 'http://' . $_SERVER['HTTP_HOST'] . $envVariables['subfolder'];
 
 $mandrill = new Mandrill('K6zCpkX3tF5Kd8q3DpDmaQ');
 $smarty = new Smarty();
+// $smarty->caching = 0;
 $smarty->setCacheDir('vendor/smarty/cache');
 $smarty->setConfigDir('vendor/smarty/configs');
 $smarty->setCompileDir('vendor/smarty/templates_c');
@@ -35,6 +37,7 @@ $smarty->setTemplateDir('views');
 //
 
 $contact = new Contact($mandrill, $smarty);
+$calculator = new Calculator();
 
 $smarty->assign('siteName', $envVariables['subfolder']);
 $smarty->assign('assets', $envVariables['subfolder'].'assets/');
@@ -47,6 +50,9 @@ $smarty->assign('siteBasic', 'www.valeverdebar.com.br');
 $smarty->assign('siteFull', 'http://www.valeverdebar.com.br');
 
 switch($page){
+    case 'calculator':
+        echo $calculator->calc();
+        break;
 
     case 'contact':
 

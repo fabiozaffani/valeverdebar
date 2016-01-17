@@ -32,7 +32,7 @@
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+    <script type="text/javascript" src="{$assets}js/vmasker.min.js"></script>
     <script type="text/javascript" src="{$assets}js/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="{$assets}js/hoverIntent.js"></script>
     <script type="text/javascript" src="{$assets}js/superfish.js"></script>
@@ -40,6 +40,7 @@
     <script type="text/javascript" src="{$assets}js/jquery.prettyPhoto.js"></script>
     <script type="text/javascript" src="{$assets}js/jquery.mobilemenu.js"></script>
     <script type="text/javascript" src="{$assets}js/jquery.contact.js"></script>
+    <script type="text/javascript" src="{$assets}js/jquery.calculator.js"></script>
     <script type="text/javascript" src="{$assets}js/jquery.preloadify.min.js"></script>
     <script type="text/javascript" src="{$assets}js/jquery.isotope.min.js"></script>
 

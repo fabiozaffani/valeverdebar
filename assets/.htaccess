@@ -1,0 +1,6 @@
+# Only the following file extensions are allowed
+Order Allow,Deny
+deny from all
+<FilesMatch "\.(jpe?g|eot|ttf|woff|otf|png|gif|js|css)$">
+allow from all
+</FilesMatch>

@@ -1,6 +1,6 @@
 <?php
 
-class Contact {
+final class Contact {
 
 	public function __construct($mandrill, $smarty) {
 		$this->mandrill = $mandrill;
@@ -9,17 +9,23 @@ class Contact {
 		$this->adminName = 'Vale Verde Bar';
 	}
 
-	public function setMailData() {
-		$this->mailData = array(
-			'name' => $_POST['name'],
-			'email' => $_POST['email'],
-			'phone' => $_POST['subject'],
-			'lastname' => $_POST['lastname'],
-			'comments' => stripslashes($_POST['comments'])
-		);
+	private function sanitize($str) {
+		return strip_tags(stripslashes(trim($str)));
 	}
 
-	public function validate() {
+	private function parsePOST() {
+		if ($_POST) {
+			$this->mailData = array(
+				'name' => $this->sanitize($_POST['name']),
+				'email' => $this->sanitize($_POST['email']),
+				'phone' => $this->sanitize($_POST['subject']),
+				'lastname' => $this->sanitize($_POST['lastname']),
+				'comments' => $this->sanitize($_POST['comments'])
+			);
+		}
+	}
+
+	private function validate() {
 
 		$result = false;
 
@@ -30,15 +36,15 @@ class Contact {
 		// honeypot bitches!
 		if ($this->mailData['lastname']) {
 			$result = 'Erro indescritível...';
-		} else if(trim($this->mailData['name']) == '') {
+		} else if($this->mailData['name'] == '') {
 			$result = 'Digite seu nome';
-		} else if(trim($this->mailData['email']) == '') {
+		} else if($this->mailData['email'] == '') {
 			$result = 'Digite seu e-mail';
 		} else if(!isEmail($this->mailData['email'])) {
 			$result = 'Digite um e-mail válido';
-		} else if(trim($this->mailData['phone']) == '') {
+		} else if($this->mailData['phone'] == '') {
 			$result = 'Digite o seu telefone';
-		} else if(trim($this->mailData['comments']) == '') {
+		} else if($this->mailData['comments'] == '') {
 			$result = 'Digite uma mensagem';
 		}
 
@@ -47,7 +53,7 @@ class Contact {
 
 	public function sendMail() {
 
-		$this->setMailData();
+		$this->parsePOST();
 		$validState = $this->validate();
 
 		if ($validState) {
