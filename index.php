@@ -41,7 +41,7 @@ $calculator = new Calculator();
 
 $smarty->assign('siteName', $envVariables['subfolder']);
 $smarty->assign('assets', $envVariables['subfolder'].'assets/');
-$smarty->assign('endereco', 'Estrada da Servidao, 30 - Varzea Paulista, SP');
+$smarty->assign('endereco', 'Rua Adelino Strasi, s/n - Varzea Paulista, SP');
 $smarty->assign('cep', '13225-298');
 $smarty->assign('email', 'fabiozaffani@gmail.com');
 $smarty->assign('telefone', '(11) 4582-2964');
