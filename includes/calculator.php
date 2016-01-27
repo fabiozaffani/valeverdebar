@@ -5,9 +5,9 @@ final class Calculator {
 	public function __construct() {
         $this->startValue = 1500;
         // valor por pessoa de sabado
-        $this->personSaturday = 6;
+        $this->personSaturday = 5.6;
         // valor por pessoa de final de semana
-        $this->personWeekend = 4;
+        $this->personWeekend = 3.8;
         // valor por pessoa durante a semana
         $this->personWeek = 2;
         // valor de locação por pessoa para mesa e cadeira extra
