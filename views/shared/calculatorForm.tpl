@@ -1,5 +1,5 @@
 <h3>Calculadora de Orçamento</h3>
-<p>Abaixo faça uma estimativa de quanto ficará o custo para sua festa com tudo incluso</p>
+<p>Abaixo faça uma estimativa de quanto ficará o custo para sua festa</p>
 <div id="calculatorForm">
     <div id="message"></div>
     <form method="post" action="{$siteName}calculator" name="calcForm" id="calcForm">
