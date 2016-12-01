@@ -5,7 +5,7 @@ final class Contact {
 	public function __construct($mandrill, $smarty) {
 		$this->mandrill = $mandrill;
 		$this->smarty = $smarty;
-		$this->adminMail = 'fabiozaffani@gmail.com';
+		$this->adminMail = 'contato@valeverdefestas.com.br';
 		$this->adminName = 'Vale Verde Bar';
 	}
 

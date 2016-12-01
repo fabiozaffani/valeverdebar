@@ -4,7 +4,7 @@
 $isDevelopment = in_array( $_SERVER['HTTP_HOST'], array( 'localhost', '127.0.0.1' ));
 
 $envVariables = array(
-    'folder' => $isDevelopment ? '/valeverdebar/' : '/valeverdebar.com.br/',
+    'folder' => $isDevelopment ? '/valeverdebar/' : '/public_html/',
     'subfolder' => $isDevelopment ? '/valeverdebar/' : '/'
 );
 
@@ -43,11 +43,11 @@ $smarty->assign('siteName', $envVariables['subfolder']);
 $smarty->assign('assets', $envVariables['subfolder'].'assets/');
 $smarty->assign('endereco', 'Rua Adelino Strasi, s/n - Varzea Paulista, SP');
 $smarty->assign('cep', '13225-298');
-$smarty->assign('email', 'fabiozaffani@gmail.com');
+$smarty->assign('email', 'contato@valeverdefestas.com.br');
 $smarty->assign('telefone', '(11) 4582-2964');
 $smarty->assign('celular', '(11) 9 4749-0551');
-$smarty->assign('siteBasic', 'www.valeverdebar.com.br');
-$smarty->assign('siteFull', 'http://www.valeverdebar.com.br');
+$smarty->assign('siteBasic', 'www.valeverdefestas.com.br');
+$smarty->assign('siteFull', 'http://www.valeverdefestas.com.br');
 
 switch($page){
     case 'calculator':
