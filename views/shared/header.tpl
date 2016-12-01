@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="{$assets}css/style.css" media="screen" />
 
     <!-- color scheme -->
-    <link rel="stylesheet" type="text/css" href="{$assets}css/red.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{$assets}css/green.css" media="screen" />
 
     <!--miscellaneous-->
     <link rel="stylesheet" type="text/css" href="{$assets}css/superfish.css" media="screen">
@@ -74,10 +74,11 @@
     <header id="header">
         <div class="centered-wrapper">
             <div class="one-third">
-                <div class="logo"><a href="{$siteName}"><img src="{$assets}images/logo.png" alt="" /></a></div>
+                <div {if $current eq 'home'} class="logo" {else} class="logo-small" {/if}>
+                  <a href="{$siteName}"><img src="{$assets}images/logo.jpg" alt="" /></a>
+                </div>
             </div><!--end one-third-->
-
-            <div class="two-third column-last">
+            <div class="two-third column-last" style="float: right;">
                 <nav id="navigation">
                     <ul id="mainnav">
                         <li>

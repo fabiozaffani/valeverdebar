@@ -2,7 +2,7 @@
 
 <section class="page-title">
     <div class="page-background">
-        <div class="pattern9"></div>
+        <div class="pattern1"></div>
     </div>
     <div class="bottom-shadow"></div>
     <div class="title-wrapper">
@@ -25,7 +25,7 @@
         sistema de segurança completo e muito mais. Clique no botão abaixo para mais informações.
     </p>
     <p>
-        <a href="{$siteName}servicos/locacao-casamento" class="button orange">Mais informações</a>
+        <a href="{$siteName}servicos/locacao-casamento" class="button green">Mais informações</a>
     </p>
     <div class="separator"></div>
 
@@ -36,7 +36,7 @@
         informações.
     </p>
     <p>
-        <a href="{$siteName}servicos/locacao-festa" class="button orange">Mais informações</a>
+        <a href="{$siteName}servicos/locacao-festa" class="button green">Mais informações</a>
     </p>
 
     <div class="separator"></div>

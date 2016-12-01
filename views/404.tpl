@@ -2,7 +2,7 @@
 
 <section class="page-title">
     <div class="page-background">
-        <div class="pattern9"></div>
+        <div class="pattern1"></div>
     </div>
     <div class="bottom-shadow"></div>
     <div class="title-wrapper">

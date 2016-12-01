@@ -15,7 +15,7 @@
                      data-easing="easeOutExpo">
                     <h2>Eventos Vale Verde</h2>
                     <p>Um novo jeito de realizar o seu evento. Casamentos, Festas e Confraternizações.</p>
-                    <a class="button orange" href="{$siteName}servicos">Saiba Mais</a>
+                    <a class="button green" href="{$siteName}servicos">Saiba Mais</a>
                 </div>
             </li>
 
@@ -33,7 +33,7 @@
                      data-easing="easeOutExpo">
                     <h2>Harmonia entre Elegância e Natureza</h2>
                     <p>Faça seu casamento conosco e conte com um lindo e elegante salão localizado em um espaço cercado por uma exuberante natureza.</p>
-                    <a class="button orange" href="{$siteName}servicos/locacao-casamento">Saiba Mais</a>
+                    <a class="button green" href="{$siteName}servicos/locacao-casamento">Saiba Mais</a>
                 </div>
             </li>
 
@@ -49,7 +49,7 @@
                      data-easing="easeOutExpo">
                     <h2>Estrutura, Comodidade e Segurança</h2>
                     <p>Um salão completamente equipado e pronto para você organizar seu evento, disponibilizamos estacionamento privativo com tranquilidade e segurança.</p>
-                    <a class="button orange" href="{$siteName}contato">Fale Conosco</a>
+                    <a class="button green" href="{$siteName}contato">Fale Conosco</a>
                 </div>
             </li>
 

@@ -23,7 +23,7 @@
             <textarea name="comments" id="comments"></textarea>
         </fieldset>
         <fieldset>
-            <input type="submit" name="send" value="Enviar" id="submit" class="button red"/>
+            <input type="submit" name="send" value="Enviar" id="submit" class="button green"/>
         </fieldset>
     </form>
 </div><!--end contactform-->

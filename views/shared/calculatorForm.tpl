@@ -27,7 +27,7 @@
             <input id="tipo" type="text" name="tipo" />
         </fieldset>
         <fieldset style="height: 36px; padding-top: 30px" class="percent-one-third column-last">
-            <input type="submit" name="send" value="Enviar" id="submit" class="button red"/>
+            <input type="submit" name="send" value="Enviar" id="submit" class="button green"/>
         </fieldset>
     </form>
 </div>
