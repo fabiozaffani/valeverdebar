@@ -44,8 +44,9 @@ $smarty->assign('assets', $envVariables['subfolder'].'assets/');
 $smarty->assign('endereco', 'Rua Adelino Strasi, s/n - Varzea Paulista, SP');
 $smarty->assign('cep', '13225-298');
 $smarty->assign('email', 'contato@valeverdefestas.com.br');
-$smarty->assign('telefone', '(11) 4582-2964');
-$smarty->assign('celular', '(11) 9 4749-0551');
+$smarty->assign('telefone', '(11) 4595-8886');
+$smarty->assign('celular', '(11) 9 4792-9714');
+$smarty->assign('celularName', 'Lucas Vieira');
 $smarty->assign('siteBasic', 'www.valeverdefestas.com.br');
 $smarty->assign('siteFull', 'http://www.valeverdefestas.com.br');
 

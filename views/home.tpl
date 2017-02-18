@@ -64,7 +64,7 @@
 
     <section class="intro">
         <h2>EVENTOS VALE VERDE</h2>
-        <h5>Um local elegante com uma natureza exuberante. Faça seu evento conosco. Ligue {$telefone}.</h5>
+        <h5>Um lindo local com uma natureza exuberante. Faça seu evento conosco. Ligue {$telefone} ou Cel/Whatsapp {$celular}</h5>
     </section>
 
     <section class="homepage-grid">
