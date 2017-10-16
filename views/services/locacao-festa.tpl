@@ -31,6 +31,7 @@
         Nosso espaço combina, como poucos outros lugares, a beleza do entorno particular que rodeia o imóvel com uma estrutura de primeira linha,
         capaz de suportar qualquer tipo de evento. Atualmente disponibilizamos para uso do locador:
         <ul class="customlist tick-list">
+            <li>Deck sobre o lago</li>
             <li>Mesas e Cadeiras para os convidados</li>
             <li>Salão coberto com varanda</li>
             <li>Área externa para montagem de estrutura extra (tenda, etc)</li>

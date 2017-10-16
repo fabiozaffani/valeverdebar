@@ -51,8 +51,9 @@
     <h2>Espaço e capacidade</h2>
     <p>
         Nosso espaço combina, como poucos outros lugares, a beleza do entorno particular que rodeia o imóvel com uma estrutura de primeira linha,
-        capaz de suportar qualquer tipo de evento. A Chácara dispõe de:
+        capaz de suportar qualquer tipo de evento. O espaço dispõe de:
         <ul class="customlist tick-list">
+            <li>Deck sobre o lago</li>
             <li>Mesas e Cadeiras para os convidados</li>
             <li>Salão coberto com varanda</li>
             <li>Cozinha industrial para uso de buffet</li>
@@ -69,15 +70,11 @@
         (conhecida como estrada velha para São Paulo) e fica na divisa entre Jundiaí e Várzea Paulista no estado de SP.
     </p>
     <p>
-        Para entrar em contato com os administradores do espaço e obterem mais informações sobre o local, como disponibilidade, tipos de decorações permitidas, entre outros detalhes,
+        Para obter mais informações sobre o local, como disponibilidade, tipos de decorações permitidas, entre outros detalhes,
         basta escrever uma simples mensagem de texto. Os responsáveis pela comunicação da Chácara entrarão em contato o mais rápido possível.
     </p>
 
     <div class="space"></div>
-
-    <div>
-        {include file='shared/calculatorForm.tpl'}
-    </div>
 
     <div class="space"></div>
 
